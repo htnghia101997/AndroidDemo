@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Happy Birthday</string>
+    <string name="app_name">DiceApp</string>
     <string name="tv_happy_birthday">Happy Birthday. You</string>
     <string name="btn_button">Button</string>
 </resources>
