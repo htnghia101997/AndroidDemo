@@ -8,16 +8,6 @@
     tools:context=".MainActivity">
 
 
-    <TextView
-        android:id="@+id/number"
-        android:layout_width="111dp"
-        android:layout_height="67dp"
-        android:layout_marginTop="300dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -27,4 +17,29 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgDice"
+        android:layout_width="160dp"
+        android:layout_height="200dp"
+        android:src="@drawable/dice_1"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text=""
+        android:textColor="#1E6DCC"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imgDice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
